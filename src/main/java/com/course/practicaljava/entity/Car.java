@@ -1,5 +1,7 @@
 package com.course.practicaljava.entity;
 
+import java.time.LocalDate;
+
 public class Car {
 	private String brand;
 	
@@ -7,6 +9,15 @@ public class Car {
 	
 	private String type;
 	
+	private int price;
+	
+	private boolean available;
+	
+	private LocalDate firstReleaseDate;
+	
+	public Car() {
+		
+	}
 	
 	public Car(String brand, String color, String type) {
 		super();
